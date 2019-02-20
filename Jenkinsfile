@@ -5,7 +5,6 @@ pipeline {
   environment {
     ORG = 'onewealthplace'
     APP_NAME = 'demo-go'
-    CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
   }
   stages {
     stage('CI Build and push snapshot') {
